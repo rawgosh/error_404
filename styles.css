@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    max-height: 1080px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 80%;
+}
+
+h2 {
+    color: #333333;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    margin-top: 40px;
+    margin-left: 77px;
+    width: 133px;
+    height: 25px;
+    position: absolute;
+}
+
+.content{
+    margin: 7.5px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-content img{
+    position: absolute;
+    width: 539px;
+    height: 447px;
+    margin-top: 265px;
+    margin-left: 77px;
+}
+
+.info-content h1{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    margin-top: 265px;
+    margin-left: 735px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 95px;
+    letter-spacing: -3.5%;
+    color: #333333;
+    font-style: normal;
+}
+
+.info-content p{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    margin-top: 490px;
+    margin-left: 735px;
+    color: #4F4F4F;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: -3.5%;
+}
+
+button{
+    all: unset;
+    background: #333333;
+    color: #FFFFFF;
+    margin-top: 687px;
+    margin-left: 740px;
+    position: absolute;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: -3.5%;
+    width: 216px;
+    height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.footer{
+    position: absolute;
+    width: 400px;
+    height: 17px;
+    margin-top: 1039px;
+    margin-left: 540px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 17px;
+    justify-content: space-between;
+    color: #BDBDBD;
+    padding-bottom: 30px;
+}   
+
+.footer a{
+    color: #BDBDBD;
+}
